@@ -1,7 +1,14 @@
+<!-- DARK MODE -->
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.GoodFood" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.GoodFood" parent="Theme.AppCompat.DayNight">
+        <item name="actionBarStyle">@style/menuBarStyle</item>
+    </style>
+
+    <style name="Theme.GoodFood" parent="Base.Theme.GoodFood" />
+
+    <style name="menuBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="elevation">0dp</item>
     </style>
 </resources>

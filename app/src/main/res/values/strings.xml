@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Good Food</string>
+    <string name="menu_global_settings">Settings</string>
+    <string name="menu_reset_data">Clean Data</string>
 </resources>
